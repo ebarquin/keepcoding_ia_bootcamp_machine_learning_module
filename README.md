@@ -19,7 +19,7 @@ To run the notebook, you need:
 - Jupyter Notebook or a compatible execution environment (e.g., Google Colab, VS Code, PyCharm).
 - The following Python libraries installed:
   ```bash
-  pip install -r requirements.txt
+  pip install pandas numpy matplotlib scikit-learn
   ```
 
 ## 📚 Module Topics
@@ -62,7 +62,7 @@ In this module, we have worked with **Python** and **Machine Learning**, explori
    ```
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install pandas numpy matplotlib scikit-learn
    ```
 3. Open and execute the Jupyter Notebook:
    ```bash
@@ -71,6 +71,7 @@ In this module, we have worked with **Python** and **Machine Learning**, explori
 
 ## 📌 Authors
 - Eugenio Barquin (https://github.com/ebarquin)
+- [Collaborators]
 
 ## 📜 License
 This project is licensed under the MIT License.
