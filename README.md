@@ -71,7 +71,6 @@ In this module, we have worked with **Python** and **Machine Learning**, explori
 
 ## 📌 Authors
 - Eugenio Barquin (https://github.com/ebarquin)
-- [Collaborators]
 
 ## 📜 License
 This project is licensed under the MIT License.
