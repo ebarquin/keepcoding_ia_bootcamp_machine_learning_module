@@ -37,9 +37,35 @@ In this module, we have worked with **Python** and **Machine Learning**, explori
 - Distribution analysis of key variables.
 
 ### 🔹 Model Training & Evaluation
-- Regression models: Linear Regression, Random Forest, XGBoost.
+- Regression models: Linear Regression, Random Forest, Lasso.
 - Cross-validation and hyperparameter tuning.
-- Performance metrics: RMSE, R².
+
+## 📊 Model Evaluation
+
+| Model                | MSE (Train) | MSE (Test) | RMSE (Train) | RMSE (Test) |
+|---------------------|-------------|------------|---------------|--------------|
+| **Linear Regression**     | 3141.45     | 3453.44    | 56.05         | 58.77        |
+| **Lasso Regression**      | 3141.46     | 3454.23    | 56.05         | 58.77        |
+| **Random Forest**         | 2742.63     | 3152.76    | 52.37         | 56.15        |
+
+## 📌 Coefficients and Feature Importances
+
+### Linear & Lasso Regression (top features):
+- `Bedrooms`: 22.76
+- `Accommodates`: 8.29
+- `Bathrooms`: 7.48
+
+### Random Forest (top importances):
+- `Bedrooms`: 0.49
+- `Accommodates`: 0.33
+- `Bathrooms`: 0.14
+
+
+## ✅ Conclusions
+
+- All models show relatively similar performance, but **Gradient Boosting** achieved the lowest test RMSE.
+- The most influential features in all models were `Bedrooms`, `Accommodates`, and `Bathrooms`.
+- Lasso Regression confirmed that many variables had minimal or no impact on the prediction.
 
 ## 📂 Repository Structure
 
